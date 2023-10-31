@@ -1,0 +1,1 @@
+export { VuesaxLinearArrowSquare } from "./VuesaxLinearArrowSquare";

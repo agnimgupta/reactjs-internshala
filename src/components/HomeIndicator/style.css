@@ -1,0 +1,22 @@
+.home-indicator {
+  height: 34px;
+  position: relative;
+  width: 390px;
+}
+
+.home-indicator .div-2 {
+  border-radius: 100px;
+  height: 5px;
+  left: 128px;
+  position: relative;
+  top: 21px;
+  width: 134px;
+}
+
+.home-indicator .dark-mode-1-true {
+  background-color: var(--label-colordarkprimary);
+}
+
+.home-indicator .dark-mode-1-false {
+  background-color: var(--label-colorlightprimary);
+}

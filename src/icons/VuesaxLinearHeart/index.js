@@ -1,0 +1,1 @@
+export { VuesaxLinearHeart } from "./VuesaxLinearHeart";

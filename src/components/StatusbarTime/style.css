@@ -1,0 +1,167 @@
+.statusbar-time {
+  border-radius: 24px;
+  position: relative;
+}
+
+.statusbar-time .time {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.statusbar-time .text-wrapper {
+  color: var(--label-colorlightprimary);
+  font-family: var(--body-bold-font-family);
+  font-size: var(--body-bold-font-size);
+  font-style: var(--body-bold-font-style);
+  font-weight: var(--body-bold-font-weight);
+  letter-spacing: var(--body-bold-letter-spacing);
+  line-height: var(--body-bold-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.statusbar-time .SF-symbol-bed-double {
+  height: 11.18px;
+  position: relative;
+  width: 16.52px;
+}
+
+.statusbar-time.default {
+  height: 21px;
+  width: 54px;
+}
+
+.statusbar-time.green {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 2px 12px;
+  width: 66px;
+}
+
+.statusbar-time.focus {
+  align-items: center;
+  display: inline-flex;
+  gap: 7px;
+}
+
+.statusbar-time.blue {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 2px 12px;
+  width: 66px;
+}
+
+.statusbar-time.orange {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 2px 12px;
+  width: 66px;
+}
+
+.statusbar-time.dark-mode-false.green {
+  background-color: var(--defaultsystemgreenlight);
+}
+
+.statusbar-time.blue.dark-mode-true {
+  background-color: var(--defaultsystembluedark);
+}
+
+.statusbar-time.blue.dark-mode-false {
+  background-color: var(--defaultsystembluelight);
+}
+
+.statusbar-time.dark-mode-false.orange {
+  background-color: var(--defaultsystemorangelight);
+}
+
+.statusbar-time.dark-mode-true.green {
+  background-color: var(--defaultsystemgreendark);
+}
+
+.statusbar-time.orange.dark-mode-true {
+  background-color: var(--defaultsystemorangedark);
+}
+
+.statusbar-time.default .time {
+  font-family: var(--body-bold-font-family);
+  font-size: var(--body-bold-font-size);
+  font-style: var(--body-bold-font-style);
+  font-weight: var(--body-bold-font-weight);
+  left: 0;
+  letter-spacing: var(--body-bold-letter-spacing);
+  line-height: var(--body-bold-line-height);
+  position: absolute;
+  width: 54px;
+}
+
+.statusbar-time.green .time {
+  color: var(--label-colordarkprimary);
+  font-family: var(--subheadline-bold-font-family);
+  font-size: var(--subheadline-bold-font-size);
+  font-style: var(--subheadline-bold-font-style);
+  font-weight: var(--subheadline-bold-font-weight);
+  letter-spacing: var(--subheadline-bold-letter-spacing);
+  line-height: var(--subheadline-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.statusbar-time.dark-mode-true .time {
+  color: var(--label-colordarkprimary);
+}
+
+.statusbar-time.focus .time {
+  color: var(--label-colordarkprimary);
+  font-family: var(--subheadline-bold-font-family);
+  font-size: var(--subheadline-bold-font-size);
+  font-style: var(--subheadline-bold-font-style);
+  font-weight: var(--subheadline-bold-font-weight);
+  letter-spacing: var(--subheadline-bold-letter-spacing);
+  line-height: var(--subheadline-bold-line-height);
+  position: relative;
+  width: fit-content;
+}
+
+.statusbar-time.blue .time {
+  color: var(--label-colordarkprimary);
+  font-family: var(--subheadline-bold-font-family);
+  font-size: var(--subheadline-bold-font-size);
+  font-style: var(--subheadline-bold-font-style);
+  font-weight: var(--subheadline-bold-font-weight);
+  letter-spacing: var(--subheadline-bold-letter-spacing);
+  line-height: var(--subheadline-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.statusbar-time.orange .time {
+  color: var(--label-colordarkprimary);
+  font-family: var(--subheadline-bold-font-family);
+  font-size: var(--subheadline-bold-font-size);
+  font-style: var(--subheadline-bold-font-style);
+  font-weight: var(--subheadline-bold-font-weight);
+  letter-spacing: var(--subheadline-bold-letter-spacing);
+  line-height: var(--subheadline-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.statusbar-time.dark-mode-false.default .time {
+  color: var(--label-colorlightprimary);
+  top: 1px;
+}
+
+.statusbar-time.dark-mode-true.default .time {
+  top: 0;
+}
